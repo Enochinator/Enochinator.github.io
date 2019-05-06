@@ -1,14 +1,21 @@
+* {box-sizing: border-box;}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 #navegador{
 	overflow: hidden;
   background-color: #e9e9e9;
+  padding-top: 0;
+  margin: 0;
 }
-#navegador ul{
+#navegador ol{
    list-style-type: none;
    text-align: left;
+   padding-top: 0;
 }
 #navegador li{
-   margin: 0 2rem 0 0;
-   font-size: 2rem;
+   font-size: 1.5rem;
    float: left;
   display: block;
   color: black;
@@ -25,32 +32,38 @@
 	background-color: #2196F3;
   	color: white;
 }
-#navegador input[type=text] {
+#navegador #buscar{
   float: right;
+}
+#navegador input[type=text] { 
   padding: 6px;
   border: none;
   margin-top: 8px;
-  margin-right: 16px;
   font-size: 17px;
 }
-#navegador #buscar{
-	float: right;
-}
+
 #navegador #buscar button {
   float: right;
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
   background: #ddd;
-  font-size: 1rem;
+  font-size: 17px;
   border: none;
   cursor: pointer;
+ 
 }
 #navegador #buscar button:hover {
   background: #ccc;
 }
-
+#navegador a{
+  text-decoration: none;
+   color: red;
+  }
 @media screen and (max-width: 600px) {
+  #navegagor #buscar{
+    float: none;
+  }
 	#navegador li, #navegador input[type=text], #navagador #buscar button {
 	    float: none;
 	    display: block;
@@ -63,13 +76,6 @@
     border: 1px solid #ccc;
   }
 }
-#buscar button
-
-
-
-#inicio{
-
-}
-#contact{
-
+html{
+  background-color: #CEECF5;
 }

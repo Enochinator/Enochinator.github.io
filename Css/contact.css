@@ -49,6 +49,11 @@
 #navegador #buscar button:hover {
   background: #ccc;
 }
+#navegador a{
+  text-decoration: none;
+  color: red;
+  }
+
 
 @media screen and (max-width: 600px) {
 	#navegador li, #navegador input[type=text], #navagador #buscar button {
