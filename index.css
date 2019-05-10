@@ -79,3 +79,6 @@ body {
 html{
   background-color: #CEECF5;
 }
+.grid-container {
+  display: grid;
+}
