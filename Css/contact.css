@@ -65,5 +65,10 @@ img {
   width: auto;
 }
 body{
-  background-color: rgb(80, 177, 241);
+  background-color: rgb(159, 164, 168);
+}
+#formula {
+border: 1rem rgb(34, 218, 59);
+height: 1rem;
+widows: 1rem;;
 }
