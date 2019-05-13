@@ -64,3 +64,6 @@ img {
   height: 1rem;
   width: auto;
 }
+body{
+  background-color: rgb(80, 177, 241);
+}
