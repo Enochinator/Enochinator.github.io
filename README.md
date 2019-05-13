@@ -1,2 +1,2 @@
 # Enochinator.github.io
-hola
+ https://enochinator.github.io/novedades-tecnologicas.github.io/
