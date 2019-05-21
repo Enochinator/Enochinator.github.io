@@ -1,6 +1,6 @@
 @font-face{
   font-family: fontica;
-  src: url(../fonts/fontita.ttf);
+  src: url(fonts/fontita.ttf);
 }
 h1{
   font-family: fontica;
@@ -80,7 +80,8 @@ img{
 .item3{
   background-color: rgba(109, 151, 230,0.7);
   margin-bottom: 0;
-  border: 3px solid black
+  border: 3px solid black;
+  
 }
 #medio{
   position: relative;
