@@ -1,0 +1,157 @@
+@font-face{
+    font-family: fontica;
+    src: url(../fonts/fontita.ttf);
+  }
+  h1{
+    font-family: fontica;
+    color: white;
+  }
+  body{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100% 100%  ;    
+    background-repeat: no-repeat;
+  }
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item5 { grid-area: footer; }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'menu header header header header header'
+      'menu main main main main main'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    
+    text-align: left;
+    padding: 0px 0;
+    font-size: 30px;
+  }
+  .grid-container > .item1{
+    text-align: center;
+  }
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  img{
+    height: 1rem;
+  }
+  
+  .item3{
+    background-color: rgba(109, 151, 230,0.7);
+    margin-bottom: 0;
+    border: 3px solid black
+  }
+  #medio{
+    position: relative;
+    display: block;
+    border: 1px solid black;
+  }
+  
+  #IA {
+    position: relative;
+  
+  }
+  #ar {
+    position: relative;
+    float:left; 
+    width: 50%;
+  }#VR {
+    position: relative;
+    width: 50%;
+  }#open {
+    position: relative;
+  }
+  #imgvr{
+    height: 10rem;
+    width: auto;
+  }
+  #imgopen{
+    height: 10rem;
+    width: auto;
+  }
+  #imgar{
+    height: 10rem;
+    width: auto;
+  }
+  #imgia{
+    height: 10rem;
+    width: auto;
+  }
+  footer a{
+    color: black;
+    text-decoration: none;
+  } 
+  
+  footer a:hover {
+    color: #A5A5A5;
+  }
+  footer table, footer td{
+    border-top: solid 1px white;
+  }
+  
+  footer li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 150px;
+  font-size: 20px;
+  }
+  
+  footer{
+   top: 0;
+    background-color: rgb(109, 151, 230);
+    width: 100%;
+  }
+  
+  footer p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    color: #B8B8B8;
+  }
+  p{
+    font-size: 2rem;
+  }
+  video{
+      width: 100%;
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <script src="../index.js"></script>
+    <script src="../json/loadjson.js"></script>
+	<link rel="stylesheet" href="../css/articulo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IA y Robotica</title>
+</head>
+<body>
+        <div class="grid-container">
+                <div class="item1"><h1>IA y Robotica</h1></div>
+                <div class="item2"><div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="../img/menu.png" ></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="../index.html">Inicio</a>
+                      <a href="../xml/info.xml">Información</a>
+                      <a href="../xml/form.xml">Contacto</a>
+                    </div>	
+                  </div>
+                  </div>
+                <div class="item3">
+                    <audio src="../video/por_3.mp3" autoplay></audio>
+                        <script type="text/javascript">
+                            var sourc = document.createElement("source");
+                
+                            loadJSON("../json/video.json", function (data){
+                                var t = data.trailers;
+                                t.forEach(element => {
+                                    /*console.log(element);*/
+                                    if(element.pelicula === "capitan2"){
+                                    sourc.src = element.enlace;
+                                    document.getElementById("vid").appendChild(sourc);
+                                }
+                                });
+                            })
+                        </script>
+                        <video id="vid" controls autoplay>
+                        </video>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus deserunt minima repellendus esse? Numquam deserunt molestias nostrum libero inventore deleniti quisquam, repudiandae explicabo corrupti. Doloremque dolor magnam commodi perspiciatis reprehenderit!</p>
+                <footer><table>
+                        <td>
+                            <ul>
+                                <li><a href="">Nota Legal</a></li>
+                                <li><a href="">Política de privacidad</a></li>
+                                <li><a href="">Política de cookies</a></li>
+                                <li><a href="">Accesibilidad</a></li>
+                            </ul>
+                        </td>
+                    </table></footer>
+              </div>
+             
+</body>
+</html>

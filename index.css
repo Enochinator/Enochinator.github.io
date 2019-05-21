@@ -1,3 +1,16 @@
+@font-face{
+  font-family: fontica;
+  src: url(../fonts/fontita.ttf);
+}
+h1{
+  font-family: fontica;
+  color: white;
+}
+body{
+  background-image: url(img/fondo.jpg);
+  background-size: 100% 100%  ;    
+  background-repeat: no-repeat;
+}
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -60,10 +73,82 @@
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-img {
+img{
   height: 1rem;
+}
+
+.item3{
+  background-color: rgba(109, 151, 230,0.7);
+  margin-bottom: 0;
+  border: 3px solid black
+}
+#medio{
+  position: relative;
+  display: block;
+  border: 1px solid black;
+}
+
+#IA {
+  position: relative;
+
+}
+#ar {
+  position: relative;
+  float:left; 
+  width: 50%;
+}#VR {
+  position: relative;
+  width: 50%;
+}#open {
+  position: relative;
+}
+#imgvr{
+  height: 10rem;
   width: auto;
 }
-body{
-  background-color: rgb(80, 177, 241);
+#imgopen{
+  height: 10rem;
+  width: auto;
+}
+#imgar{
+  height: 10rem;
+  width: auto;
+}
+#imgia{
+  height: 10rem;
+  width: auto;
+}
+footer a{
+  color: black;
+  text-decoration: none;
+} 
+
+footer a:hover {
+  color: #A5A5A5;
+}
+footer table, footer td{
+  border-top: solid 1px white;
+}
+
+footer li{
+list-style-type: none;
+display: inline;
+padding-right: 150px;
+font-size: 20px;
+}
+
+footer{
+ top: 0;
+  background-color: rgb(109, 151, 230);
+  width: 100%;
+}
+
+footer p{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  color: #B8B8B8;
+}
+p{
+  font-size: 1rem;
 }

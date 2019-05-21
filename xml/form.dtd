@@ -1,0 +1,3 @@
+<!ELEMENT formulario (nombre, email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

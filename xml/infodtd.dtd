@@ -1,0 +1,3 @@
+<!ELEMENT pagina (parrafo | parte)+>
+<!ELEMENT parte (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>

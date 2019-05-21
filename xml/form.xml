@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formulario SYSTEM "form.dtd">
+<?xml-stylesheet type="text/xsl" href="form.xsl"?>
+
+<formulario>
+    <nombre></nombre>
+    <email></email>
+    <asunto></asunto>
+</formulario>
