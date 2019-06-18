@@ -17,7 +17,7 @@
           <table>
             <tr><td>Email:</td><td><input type="text" name="email" value="{$email}"></input></td></tr>
             <tr><td>Nombre:</td><td><input type="text" name="name" value="{$name}"/></td></tr>
-             <tr><td>Asunto:</td><td><input type="text" name="asunto" value="{$asunto}" id="asunto"/></td></tr>
+             <tr><td>Asunto:</td><td><input type="text" name="asunto" value="{$asunto}" id="asunto  "/></td></tr>
             <tr><td></td><td><input type="submit" value="Enviar"/></td></tr>
         </table>
         </form>
