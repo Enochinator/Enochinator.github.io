@@ -10,7 +10,10 @@
     <title>IA y Robotica</title>
 </head>
 <body>
-        <audio src="../video/por_3.mp3" autoplay></audio>
+        <audio controls autoplay>
+                <source src="../video/song.mp3" type="audio/mp3">
+                <source src="../video/song.ogg" type="audio/ogg">
+        </audio> 
         <div class="grid-container">
                 <div class="item1"><h1>IA y Robotica</h1></div>
                 <div class="item2"><div class="dropdown">
@@ -31,14 +34,14 @@
                                 var t = data.trailers;
                                 t.forEach(element => {
                                     /*console.log(element);*/
-                                    if(element.pelicula === "capitan2"){
-                                    sourc.src = element.enlace;
+                                    if(element.pelicula === "pepper"){
+                                    sourc.src = element.link;
                                     document.getElementById("vid").appendChild(sourc);
                                 }
                                 });
                             })
                         </script>
-                        <video id="vid" controls autoplay>
+                        <video id="vid" src="../video/ai.mp4" controls autoplay>
                         </video>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus deserunt minima repellendus esse? Numquam deserunt molestias nostrum libero inventore deleniti quisquam, repudiandae explicabo corrupti. Doloremque dolor magnam commodi perspiciatis reprehenderit!</p>
                 <footer><table>
