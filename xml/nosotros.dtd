@@ -1,0 +1,9 @@
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (foto, puesto)>
+<!ATTLIST empleado
+          apellido CDATA #REQUIRED
+          nombre CDATA #REQUIRED>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto
+          ruta CDATA #REQUIRED>
+<!ELEMENT puesto (#PCDATA)>

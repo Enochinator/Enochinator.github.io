@@ -1,9 +1,35 @@
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+#container{
+  min-height: 100%;
+
+}
+
+#footer{
+  position: relative;
+  height: 6rem;
+  margin-top: -6rem;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 92, 95);
+  color: white;
 }
 @font-face{
   font-family: fontica;
   src: url(fonts/fontita.ttf);
+}
+@font-face{
+  font-family: bebas;
+  src: url(fonts/Bebas.ttf);
 }
 
 header{
@@ -71,12 +97,12 @@ h1 a{
 }
 
 body{
-background-color: rgb(126, 126, 126);
+background-color: white;
 height: 100%;
 width: 100%;
 }
 .drop {
-  background-color: #4CAF50;
+  background-color: rgb(4, 11, 114);
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -98,7 +124,9 @@ width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 }
-
+h2{
+  font-family: bebas;
+}
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
@@ -115,30 +143,51 @@ width: 100%;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-img{
-  height: 1rem;
-}
 
-}
-#medio{
-  position: relative;
-  display: block;
-  border: 1px solid black;
-}
 
-#IA {
-  position: relative;
 
+
+#caja2{
+  margin: 20px auto;
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  float: left;
+    }
+.cont2{
+  background-color:#333;
+  padding:20px;
+  border-radius:10px;
+  color:#fff;
+  display:flex;
+
+
+  font-size:1rem;
 }
-#ar {
-  position: relative;
-  float:left; 
-  width: 50%;
-}#VR {
-  position: relative;
-  width: 50%;
-}#open {
-  position: relative;
+#caja{
+  margin: 20px auto;
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  float: left;
+    }
+.cont{
+  background-color:#333;
+  padding:20px;
+  border-radius:10px;
+  color:#fff;
+  display:flex;
+
+
+  font-size:1rem;
 }
 #imgvr{
   height: 10rem;
@@ -152,21 +201,8 @@ img{
   height: 10rem;
   width: auto;
 }
-#imgia{
-  height: 10rem;
-  width: auto;
-}
-footer {
-	height: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(93, 92, 95);
-    margin-top: 50px;
-    padding-bottom: 10px;
-    color: white;
-}
+
+
 
 div.redes-sociales {
 	margin-top: 10px;
@@ -175,4 +211,24 @@ div.redes-sociales {
 .redes-sociales img {
 	width: 32px;
 	height: 32px;
+}
+#imgia{
+  height: 18rem;
+  width: auto;
+}
+#imgtrad{
+  height: 18rem;
+  width: auto;
+}
+#imgflex{
+  height: 10rem;
+  width: auto;
+}
+
+h2 a{
+  text-decoration: none;
+  color: white;
+}
+h2 a:hover{
+  color: grey;
 }

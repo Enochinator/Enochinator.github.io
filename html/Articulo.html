@@ -10,53 +10,73 @@
     <title>IA y Robotica</title>
 </head>
 <body>
+    <header>
+				
+        <nav id="container-nav" class="container-nav">
+            
+                    <div class="elementos-nav">
+                            <h1><a href="../index.html" >Novedades tecnologicas</a></h1>
+                        
         
-        <div class="grid-container">
-                <div class="item1"><h1>IA y Robotica</h1></div>
-                <div class="item2"><div class="dropdown">
-                    
-                    <button onclick="myFunction()" class="dropbtn"><img src="../img/menu.png" ></button>
-                    <div id="myDropdown" class="dropdown-content">
-                      <a href="../index.html">Inicio</a>
-                      <a href="../xml/info.xml">Información</a>
-                      <a href="../xml/form.xml">Contacto</a>
-                    </div>	
-                  </div>
-                  </div>
-                <div class="item3">
-                        <h2>La Inteligencia Artificial (IA) y la robótica van a hacerse con el mundo. Sólo había que ir de compras estas Navidades para darse cuenta: estanterías llenas de Roomba y Alexa. Y aunque fue en 2018 cuando un coche autónomo mató en mayo a un peatón, en septiembre el Congreso estadounidense aprobó nuevas regulaciones alrededor del desarrollo de esta tecnología.
-                                Con esos dos ingredientes, IA + Robótica, 2019 tiene la receta lista para que empecemos a ver más aparatejos autónomos rondando por ahí, como los robots que vigilan centros comerciales, más coches que se conducen solos o incluso podría ser el año en el que los ‘drones’ de Amazon comiencen a llevar pedidos en Estados Unidos. De hecho, el gobierno estadounidense anunció este año que planea facilitar las reglas para que puedan operar los ‘drones’ comerciales, por lo que el futurístico proyecto de Jeff Bezos podría ser realidad muy pronto.</h2> 
-                        <script type="text/javascript">
-                            var sourc = document.createElement("source");
-                
-                            loadJSON("../json/video.json", function (data){
-                                var t = data.trailers;
-                                t.forEach(element => {
-                                    /*console.log(element);*/
-                                    if(element.pelicula === "pepper"){
-                                    sourc.src = element.link;
-                                    document.getElementById("vid").appendChild(sourc);
-                                }
-                                });
-                            })
-                        </script>
-                        <video id="vid" src="../video/ai.mp4" controls autoplay>
-                        </video>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus deserunt minima repellendus esse? Numquam deserunt molestias nostrum libero inventore deleniti quisquam, repudiandae explicabo corrupti. Doloremque dolor magnam commodi perspiciatis reprehenderit!</p>
-                        <audio controls autoplay>
-                                <source src="../video/song.mp3" type="audio/mp3">
-                                <source src="../video/song.ogg" type="audio/ogg">
-                        </audio> 
-                <footer><table>
-                        <td>
-                            <ul>
-                                <li><a href="">Política de privacidad</a></li>
-                                <li><a href="">Política de cookies</a></li>
-                                <li><a href="">Accesibilidad</a></li>
-                            </ul>
-                        </td>
-                    </table></footer>
-              </div>
-             
-</body>
-</html>
+                        <ul class="nav">
+                            <li class="botones">
+                                <a href="#actividades">Quienes somos</a>
+                            </li>
+                            <li class="botones">
+                                <div class="dropdown">
+                                    <a class="drop">Idioma</a>
+                                    <div class="dropdown-content">
+                                        <a href="#">Español</a>
+                                        <a href="#">Ingles</a>
+                                        <a href="#">Frances</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="botones">
+                                <a href="#horario">Contacto</a>
+                            </li>
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="relleno"></div>
+        <h2>La Inteligencia Artificial (IA) y la robótica van a hacerse con el mundo. </h2> 
+        <p>Sólo había que ir de compras estas Navidades para darse cuenta: estanterías llenas de Roomba y Alexa. Y aunque fue en 2018 cuando un coche autónomo mató en mayo a un peatón, en septiembre el Congreso estadounidense aprobó nuevas regulaciones alrededor del desarrollo de esta tecnología.</p>
+        <script type="text/javascript">
+            var sourc = document.createElement("source");
+    
+            loadJSON("../json/video.json", function (data){
+                var t = data.trailers;
+                t.forEach(element => {
+                    /*console.log(element);*/
+                    if(element.pelicula === "pepper"){
+                    sourc.src = element.link;
+                    document.getElementById("vid").appendChild(sourc);
+                }
+                });
+            })
+        </script>
+        <video id="vid" src="../video/ai.mp4" controls autoplay>
+        </video>
+        <div id="pic">
+        <img src="../img/Sophia.jpg">
+        <p>El nuevo robot con inteligencia artificial Sophia</p>
+        </div>
+        <p> Con esos dos ingredientes, IA + Robótica, 2019 tiene la receta lista para que empecemos a ver más aparatejos autónomos rondando por ahí, como los robots que vigilan centros comerciales, más coches que se conducen solos o incluso podría ser el año en el que los ‘drones’ de Amazon comiencen a llevar pedidos en Estados Unidos. De hecho, el gobierno estadounidense anunció este año que planea facilitar las reglas para que puedan operar los ‘drones’ comerciales, por lo que el futurístico proyecto de Jeff Bezos podría ser realidad muy pronto.   </p>
+       <footer>        
+            <div class="redes-sociales">
+                <a href="http://twitter.com" target="_blank"><img src="../img/iconT.png"/></a>
+
+                <a href="https://www.instagram.com" target="_blank"><img src="../img/iconI.png"/></a>
+            </div>
+
+            <p>2019 Portada Novedades, Todos los derechos reservados &copy</p>
+            <audio src="audio/song.mp3" autoplay controls height="25px"></audio>
+    </footer>	
+
+         
+    </body>
+    </html>

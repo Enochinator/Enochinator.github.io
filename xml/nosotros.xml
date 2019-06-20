@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE empleados SYSTEM "nosotros.dtd">
+<empleados>
+	<empleado nombre="Alvaro" apellido="Peña">
+		<foto ruta="../img/alv.jpg"/>
+		<puesto>Editor Jefe</puesto>
+	</empleado>
+
+	<empleado nombre="Manuel" apellido="Abad">
+		<foto ruta="../img/man.jpg"/>
+		<puesto>Encargado de revision</puesto>
+	</empleado>
+
+	<empleado nombre="Natalia" apellido="Baldonado">
+		<foto ruta="../img/nat.jpg"/>
+		<puesto>Periodista</puesto>
+	</empleado>
+
+	<empleado nombre="Gabriela" apellido="Correa">
+		<foto ruta="../img/gab.jpg"/>
+		<puesto>Editor</puesto>
+	</empleado>
+
+</empleados>
