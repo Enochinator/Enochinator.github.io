@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE empleados SYSTEM "nosotros.dtd">
 <empleados>
-	<empleado nombre="Alvaro" apellido="Peña">
+	<empleado nombre="Alvaro" apellido="Fernandez">
 		<foto ruta="../img/alv.jpg"/>
 		<puesto>Editor Jefe</puesto>
 	</empleado>

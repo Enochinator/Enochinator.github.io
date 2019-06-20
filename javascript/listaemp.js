@@ -41,7 +41,7 @@ function leerNosotrosXML(){
 	var trabajadores = [];
 
 	fetchNosotrosXml(url, function(xmlLeido){
-		var empleados = xmlLeido.getElementsByTagName('empleados');
+		var empleados = xmlLeido.getElementsByTagName('empleado');
 
 		for(var i = 0; i < empleados.length; i++){
 			var children = empleados[i].children;
@@ -70,7 +70,4 @@ function leerNosotrosXML(){
 	});
 }
 
-window.addEventListener('load', leerEmpleadosXML);
-/*window.onload = function(){
-	leerMonitoresXML();
-}*/
+window.addEventListener('load', leerNosotrosXML);
