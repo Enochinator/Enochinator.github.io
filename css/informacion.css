@@ -204,3 +204,12 @@ h3{
     color: white;
     font-family: bebas;
 }
+.pre{
+  font-family: bebas;
+}
+img{
+  height:25rem;
+}
+#emp{
+  float: left;
+}
